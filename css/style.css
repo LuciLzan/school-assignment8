@@ -3,4 +3,16 @@
     color: white;
     border-color: #007bff;
 }
+
+.not-selected {
+    background-color: #EDEDED;
+    color: #888888;
+    border-color: #888888;
+}
+
+.unanswered {
+    background-color: #FEFEFE;
+    color: #000000;
+    border-color: #444444;
+}
   
