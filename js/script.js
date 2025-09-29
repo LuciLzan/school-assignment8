@@ -56,7 +56,7 @@ function submit() {
     let text = "Your test results show you being an ambivert! Ambiverts are a mix between introverts and extroverts, sharing characteristics of both. You can have fun on your own, but you know how to party when you are in the mood!"
     //Is an extrovert
     if(answerSum > EXTROVERT_LOWER_BOUND) {
-        text = "Your test results show you being an extravert! Extroverts are incredibly social people, unafraid of new people or experiences. Extraverts have a hard time being alone, but thrive in the company of others! "
+        text = "Your test results show you being an extrovert! Extroverts are incredibly social people, unafraid of new people or experiences. Extraverts have a hard time being alone, but thrive in the company of others! "
     }
     //Is an introvert
     else if(answerSum < INTROVERT_UPPER_BOUND) {
